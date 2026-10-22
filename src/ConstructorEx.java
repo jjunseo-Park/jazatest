@@ -5,8 +5,10 @@
 
 
     class Mycon {
+        // 맴버변수
         String name;
         int age;
+
         //생성자
         public Mycon() {
             age = 20;
@@ -28,6 +30,7 @@
 public class ConstructorEx {
 
     public static void main(String arg[]){
+        // Mycon 생성자를 호출하여 입력받은 맴버변수로 초기화
         Mycon m1 = new Mycon(10, "김길동");
         System.out.println(m1.name);
 

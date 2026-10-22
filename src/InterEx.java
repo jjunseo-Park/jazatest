@@ -1,0 +1,26 @@
+// 인터페이스 : 추상화 메소드와 상수로만 이루어짐
+interface MyInter {
+    int x = 10;
+    abstract public void printX();
+}
+class UseAbs extends Myabs{
+        // 메소드 오버라이딩(overriding)
+        public void prinA() {
+            System.out.println("A");
+    }
+}
+
+class UseInter implements MyInter{
+    public void printX() {
+
+    }
+}
+
+public class InterEx {
+    public static void main(String args[]){
+        int x = 10; //변수 x 값변경 가능
+        x = 20;
+
+        final int y = 10; //상수 y 값변경 불가능
+    }
+}

@@ -37,5 +37,4 @@ public class IfEx {
         }
         System.out.println( j );
     }
-
 }

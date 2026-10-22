@@ -37,6 +37,5 @@ public class ArrayEx {
             // 배열을 사용할때 자주하는 실수
             System.out.println( y[100] );
             y[3] = 100;
-
     }
 }
